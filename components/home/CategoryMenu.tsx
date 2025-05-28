@@ -14,7 +14,7 @@ const CategoryMenu = () => {
     },
   ];
   return (
-    <div className="flex flex-col mt-16">
+    <div className="flex flex-col mt-16 max-w-[1280px]">
       <div className="max-w-16">
         {categories.map((item, index) => (
           <p
@@ -28,7 +28,7 @@ const CategoryMenu = () => {
       <div className="relative mt-4">
         <CiSearch className="absolute text-gray-600 text-2xl top-1/2 left-2 transform -translate-y-1/2" />
         <input
-          className="bg-[#D9D9D9] placeholder:absolute placeholder:text-gray-600 p-2 placeholder:right-2 placeholder:top-1/2 placeholder:-translate-y-1/2 min-w-full md:min-w-16"
+          className="bg-buttonBg placeholder:absolute placeholder:text-gray-600 p-2 placeholder:right-2 placeholder:top-1/2 placeholder:-translate-y-1/2 min-w-full md:min-w-16"
           type="text"
           placeholder="Search"
         />

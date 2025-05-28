@@ -5,7 +5,7 @@ import UserPanel from "./userpanel";
 
 const Header = () => {
   return (
-    <div className="text-black flex justify-between items-center">
+    <div className="text-black flex justify-between items-center max-w-[1280px]">
       <Menu />
       <Logo />
       <UserPanel />
