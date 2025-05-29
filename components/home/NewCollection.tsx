@@ -20,7 +20,7 @@ const NewCollection = () => {
           </p>
           <p className="text-lg text-gray-500">Summer 2025</p>
         </div>
-        <Link href={"#"}>
+        <Link href={"/products"}>
           <div>
             <button className="relative bg-buttonBg w-full text-lg font-bold py-2 cursor-pointer">
               Go To Shopping

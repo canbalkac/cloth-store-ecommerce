@@ -123,3 +123,27 @@ export const NewThisWeekUrl = [
     price: "$ 89,99",
   },
 ];
+
+export const XIVCollectionsURL = [
+  {
+    image: "/xiv-collections/xiv-collection-1.png",
+    alt: "XIV Collection",
+    title: "Cotton T Shirt",
+    desc: "Basic Heavy Weight T-Shirt",
+    price: "$ 199",
+  },
+  {
+    image: "/xiv-collections/xiv-collection-2.png",
+    alt: "XIV Collection",
+    title: "Cotton Jeans",
+    desc: "Soft Wash Straight Fit Jeans",
+    price: "$ 249",
+  },
+  {
+    image: "/xiv-collections/xiv-collection-3.png",
+    alt: "XIV Collection",
+    title: "Cotton T Shirt",
+    desc: "Basic Heavy Weight T-Shirt",
+    price: "$ 199",
+  },
+];

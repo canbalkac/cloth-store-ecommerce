@@ -25,11 +25,11 @@ const CategoryMenu = () => {
           </p>
         ))}
       </div>
-      <div className="relative mt-4">
-        <CiSearch className="absolute text-gray-600 text-2xl top-1/2 left-2 transform -translate-y-1/2" />
+      <div className="flex items-center bg-buttonBg mt-4 w-full md:w-[300px] px-2">
+        <CiSearch className="text-gray-600 text-2xl" />
         <input
-          className="bg-buttonBg placeholder:absolute placeholder:text-gray-600 p-2 placeholder:right-2 placeholder:top-1/2 placeholder:-translate-y-1/2 min-w-full md:min-w-16"
-          type="text"
+          className="placeholder:absolute placeholder:text-gray-600 p-2 placeholder:right-2 placeholder:top-1/2 placeholder:-translate-y-1/2 w-full focus:outline-none focus:shadow-none"
+          type="search"
           placeholder="Search"
         />
       </div>
