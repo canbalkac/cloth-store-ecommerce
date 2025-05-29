@@ -11,7 +11,7 @@ import { Autoplay } from "swiper/modules";
 
 const NewCollection = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 content-center gap-4 lg:h-96 mt-16 max-w-[1280px]">
+    <div className="grid grid-cols-1 md:grid-cols-2 content-center gap-4 min-h-[384px] mt-16 max-w-[1280px]">
       <div className="flex flex-col justify-between text-black text-2xl md:w-full h-full">
         <div>
           <p className="font-bold text-5xl">
@@ -34,11 +34,13 @@ const NewCollection = () => {
       </div>
       <div className="text-black text-2xl">
         <Swiper
+          allowTouchMove={false}
+          simulateTouch={false}
           slidesPerView={1}
+          spaceBetween={24}
           breakpoints={{
-            768: {
-              slidesPerView: 2,
-            },
+            768: { slidesPerView: 1 },
+            1024: { slidesPerView: 2 },
           }}
           className="mySwiper"
           autoplay={{
@@ -50,7 +52,16 @@ const NewCollection = () => {
         >
           {NewCollectionUrl.map((item, index) => (
             <SwiperSlide key={index}>
-              <Image src={item.image} alt={item.alt} width={300} height={250} />
+              <div className="flex justify-center items-center w-full h-full">
+                <Image
+                  draggable={false}
+                  src={item.image}
+                  alt={item.alt}
+                  width={400}
+                  height={400}
+                  className="w-full h-auto object-cover max-w-[350px]"
+                />
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

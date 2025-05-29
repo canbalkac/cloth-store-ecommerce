@@ -23,7 +23,7 @@ const SwiperNavButton = () => {
   }, [swiper]);
 
   return (
-    <div className="flex justify-center mt-4 space-x-2 w-full h-full">
+    <div className="hidden md:flex justify-center mt-4 space-x-2 w-full h-auto">
       <button
         className={
           "text-2xl border border-gray-400 flex items-center justify-center w-10 h-10 transition disabled:opacity-50 " +
