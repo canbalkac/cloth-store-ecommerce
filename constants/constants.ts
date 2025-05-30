@@ -330,3 +330,24 @@ export const products = [
     price: "$ 199",
   },
 ];
+
+export const cart = [
+  {
+    image: "/cart/cart-1.png",
+    title: "Cotton T-Shirt",
+    desc: "Full Sleeve Zipper",
+    price: "$ 99",
+    count: "1",
+    size: "L",
+    color: "bg-black",
+  },
+  {
+    image: "/cart/cart-2.png",
+    title: "Cotton T-Shirt",
+    desc: "Basic Slim Fit T-Shirt",
+    price: "$ 199",
+    count: "2",
+    size: "L",
+    color: "bg-black",
+  },
+];
