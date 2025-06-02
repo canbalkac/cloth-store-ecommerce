@@ -8,7 +8,7 @@ import { formatCardNumber, formatCvvNumber, formatString } from "@/lib/utils";
 
 const InfoTabs = () => {
   return (
-    <Tabs defaultValue="account" className="w-[400px]">
+    <Tabs defaultValue="account" className="w-[300px] md:w-[400px]">
       <TabsList className="mt-4">
         <TabsTrigger value="account" className="">
           INFORMATION
