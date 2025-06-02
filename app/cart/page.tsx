@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { cart } from "@/constants/constants";
 import { Plus, Minus, RefreshCcw, X } from "lucide-react";
+import Link from "next/link";
 
 const CartPage = () => {
   return (
@@ -99,9 +100,11 @@ const CartPage = () => {
                 I aggree to the Terms and Conditions
               </label>
             </div>
-            <Button className="rounded-none bg-[#d9d9d9] w-full text-black hover:text-white cursor-pointer">
-              CONTINUE
-            </Button>
+            <Link href="/check-out">
+              <Button className="rounded-none bg-[#d9d9d9] w-full text-black hover:text-white cursor-pointer">
+                CONTINUE to CHECKOUT PAGE
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
