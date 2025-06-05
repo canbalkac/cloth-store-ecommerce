@@ -1,37 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cloth Store E-Commerce
 
-## Getting Started
+![Cloth Store E-Commerce](public/cover.png)
 
-First, run the development server:
+A modern and stylish clothing e-commerce web application. This project is developed using Next.js 13's App Router architecture and Tailwind CSS. It offers a fast, scalable and developer-friendly structure.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+🔗 **Live Demo:** [cloth-store-ecommerce.vercel.app](https://cloth-store-ecommerce.vercel.app)
+
+---
+
+## 🚀 Features
+
+- ⚡️ **Next.js 15 App Router** Modern page redirection
+- 🎨 **Tailwind CSS** Customisable and responsive design
+- 🧩 **Modular Component Structure** Easy development and maintenance
+- 🔍 SEO friendly and fast page load times
+- 📦 Clean and understandable project structure
+
+---
+
+## 🧱 Technology Stack
+
+- **Next.js 15**
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS 4**
+- **ESLint** ve **PostCSS**
+
+---
+
+## 📁 Project Structure
+
+```
+├── app/                # Pages and routing
+├── components/         # Reusable components
+├── constants/          # Fixed values and configurations
+├── lib/                # Utility functions
+├── public/             # Static files (images, fonts, etc.)
+├── .gitignore
+├── next.config.ts
+├── package.json
+├── tailwind.config.ts
+└── tsconfig.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Installation and Operation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Follow these steps to run the project in your local environment:
 
-## Learn More
+```bash
+# Clone Depo
+git clone https://github.com/canbalkac/cloth-store-ecommerce.git
 
-To learn more about Next.js, take a look at the following resources:
+# Go to the project directory
+cd cloth-store-ecommerce
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Install dependencies
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Start the development server
+npm run dev
+```
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# cloth-store-ecommerce
+You can view the application by visiting `http://localhost:3000` in your browser.
