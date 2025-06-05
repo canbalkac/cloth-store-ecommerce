@@ -1,6 +1,6 @@
 # Cloth Store E-Commerce
 
-![Cloth Store E-Commerce](public/cover.png)
+![Cloth Store E-Commerce]
 
 A modern and stylish clothing e-commerce web application. This project is developed using Next.js 13's App Router architecture and Tailwind CSS. It offers a fast, scalable and developer-friendly structure.
 
