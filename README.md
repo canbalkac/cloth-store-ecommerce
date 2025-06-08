@@ -1,6 +1,6 @@
 # Cloth Store E-Commerce
 
-A modern and stylish clothing e-commerce web application. This project is developed using Next.js 13's App Router architecture and Tailwind CSS. It offers a fast, scalable and developer-friendly structure.
+A modern and stylish clothing e-commerce web application. This project is developed using Next.js 15's App Router architecture and Tailwind CSS. It offers a fast, scalable and developer-friendly structure.
 
 🔗 **Live Demo:** [cloth-store-ecommerce.vercel.app](https://cloth-store-ecommerce.vercel.app)
 
